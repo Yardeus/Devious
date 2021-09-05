@@ -1,0 +1,33 @@
+.header {
+    grid-area: h;
+
+    display: grid;
+    width: auto;
+    background: #4e7dff;
+
+    grid-template-columns: 2fr 2fr 2fr 2fr 2fr ;
+    grid-template-areas:
+            "vacancy create login";
+
+    height: 90px;
+    left: -1px;
+    top: 0px;
+    border-bottom: 1px solid black;
+
+
+
+}
+.butt{
+
+
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 33px;
+    line-height: 39px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
